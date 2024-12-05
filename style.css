@@ -1,0 +1,71 @@
+{ margin:0;
+    padding:0;
+    font-family:'popins', sans-serif;
+    box-sizing:border-box;
+}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    
+    header {
+        text-align: center;
+        background-color: #ff6347;
+        padding: 20px;
+        color: white;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    
+    header p {
+        font-size: 1.2em;
+    }
+    
+    .menu {
+        margin: 30px auto;
+        width: 80%;
+        max-width: 800px;
+    }
+    
+    .menu h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #ff6347;
+        border-bottom: 2px solid #ff6347;
+        padding-bottom: 10px;
+    }
+    
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu li {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: white;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu li span {
+        font-size: 1.2em;
+    }
+    
+    .price {
+        color: #ff6347;
+        font-weight: bold;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        margin-top: 30px;
+    }
